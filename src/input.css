@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply bg-white rounded overflow-hidden shadow-md relative mb-6  hover:shadow-slate-800;
+}
+
+.badge {
+  @apply bg-gray-200 text-blue-900 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2;
+}
+
+.disappear{
+  @apply hover:hidden
+}
+
+.projectCard{
+  width:100%;
+  /* margin: 40px 0; */
+  background-color: gray;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.projectTextContain{
+  /* position: relative; */
+  position: absolute;
+  z-index: 20;
+  width: 200px;
+  /* padding: 30px 0; */
+  /* width: 24.75%; */
+  height: 39%;
+  object-fit: cover;
+  opacity: 0.6;
+  background-color: aqua;
+}
+
+.projectImageTitle{
+  /* width:; */
+  /* height: 70%; */
+  position: absolute;
+  font-size: 32px;
+  color: white;
+  /* margin-top: 4.2%; */
+  /* margin-left: 7.3%; */
+  z-index: 10;
+  background-color: #153855;
+}
+
+.projectImageButton{
+  /* position: relative; */
+  position: absolute;
+  z-index: 10;
+  /* background-color: #1538; */
+}
+
+.viewMoreButton{
+  position: relative;
+  padding: 10px 15px;
+  background-color: #1538;
+}
+
